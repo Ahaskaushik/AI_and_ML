@@ -7,4 +7,5 @@ print(arr.min(axis=1))
 print(arr.max(axis=1))
 print(arr.cumsum(axis=1))
 print(arr.mean(axis=1))
+print(arr.transpose())
 
