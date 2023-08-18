@@ -9,4 +9,10 @@ print("\n")
 fib=[0,1,1,2,3,5,8,13,21,34]
 f=list(filter(lambda x:x%2!=0,fib))
 print(f)
+print("\n")
+
+
+fruits=["mango","oranges","apple","kiwi"]
+f=list(filter(lambda x: 'g' in x, fruits))
+print(f)
 
